@@ -74,12 +74,12 @@ header img{
 footer{
     display: flex;
     justify-content: flex-end;
-    padding: 20px;
+    padding: 50px 20px;
     box-sizing: border-box;
     width: 100%;
 }
 footer p{
-    color: white;
+    color: rgb(202, 202, 202);
     font-size: 14px;
 }
 @media screen and (max-width: 600px){
