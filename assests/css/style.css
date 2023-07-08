@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +6,21 @@
 
 body {
     background-color: black;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Caprasimo', cursive;
+}
+.head{
+    display: flex;
+    align-items: center;
+
+}
+.head img{
+    width: 15%;
+    margin: 5% auto;
+    filter:opacity(.8);
 }
 
 .xo_boxes {
@@ -16,7 +31,7 @@ body {
     /* align-items:center; */
     align-content: space-between;
     justify-content: space-between;
-    margin: 30vh auto 0px auto;
+    margin: 10vh auto 0px auto;
     /* border: 1px solid white; */
     background-color: rgb(182, 182, 182);
 
