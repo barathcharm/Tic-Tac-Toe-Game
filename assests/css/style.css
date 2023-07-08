@@ -49,3 +49,10 @@ body {
 .view {
     display: block;
 }
+
+@media screen and (max-width: 600px){
+    .xo_boxes{
+        width: 45vw;
+        height: 45vw;
+    }
+}
