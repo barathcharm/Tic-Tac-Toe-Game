@@ -9,13 +9,15 @@ body {
 }
 
 .xo_boxes {
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
     display: flex;
     flex-wrap: wrap;
+    /* align-items:center; */
     align-content: space-between;
     justify-content: space-between;
-    margin: 250px auto 0px auto;
+    margin: 30vh auto 0px auto;
+    /* border: 1px solid white; */
     background-color: rgb(182, 182, 182);
 
 }
